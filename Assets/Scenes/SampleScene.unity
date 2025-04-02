@@ -527,7 +527,7 @@ Animator:
   m_GameObject: {fileID: 301289582}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 745f626a2abdc9e4aa1163ffe2fd3224, type: 2}
+  m_Controller: {fileID: 22100000, guid: 3b2e93a2f329fe94fa4a4158d40e8d38, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -573,6 +573,7 @@ MonoBehaviour:
   maxAmmo: 100
   timeBetweenShots: 0.1
   isAutomatic: 1
+  particleEffect: {fileID: 777865134316067238, guid: e9fcfcda3c42d994e88d092c6b0db4ff, type: 3}
 --- !u!850595691 &351110734
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -6174,7 +6175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8589143665434785, guid: fa9c5921f7a67fe49822424e8604a768, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8589143665434786, guid: fa9c5921f7a67fe49822424e8604a768, type: 3}
       propertyPath: gun
@@ -6517,7 +6518,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6280613265057702093
 Transform:
   m_ObjectHideFlags: 0
